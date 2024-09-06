@@ -1,0 +1,89 @@
+.button-learn {
+    display: flex;
+  }
+  
+  .Custombox {
+    width: 35px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    transition: all .8s;
+    cursor: pointer;
+    position: relative;
+    background: #000;
+    overflow: hidden;
+  }
+  
+  .Custombox:before {
+    content: "M";
+    position: absolute;
+    top: 0;
+    background: #0f0f0f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+    transition: transform .4s;
+  }
+  
+  .Custombox:nth-child(2)::before {
+    transform: translateY(-100%);
+    content: 'O';
+  }
+  
+  .Custombox:nth-child(3)::before {
+    content: 'R';
+  }
+  
+  .Custombox:nth-child(4)::before {
+    transform: translateY(-100%);
+    content: 'E';
+  }
+  
+  .Custombox:nth-child(5)::before {
+    content: '!';
+  }
+  
+  .button-learn:hover .Custombox:before {
+    transform: translateY(0);
+  }
+
+  
+
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .apple-box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   } 
+   
