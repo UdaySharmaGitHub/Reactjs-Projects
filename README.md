@@ -24,8 +24,10 @@ https://github.com/user-attachments/assets/0a2ccf53-2148-4eb3-8556-29f744a5d60a
 https://github.com/user-attachments/assets/418a230c-eb03-488b-a4aa-15db1d2ac95b
 
 - [***Theme Switcher***](./ThemeSwitcher/)
+
 ![alt](./ThemeSwitcher/public/image.png)
 
 
 - [***Currency Converter***](./CurrencyConverter/)
+
 ![alt](./CurrencyConverter/public/image.png)
