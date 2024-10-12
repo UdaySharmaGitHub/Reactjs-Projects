@@ -4,6 +4,7 @@
 - [***Numeric Calculator***](./calculator/)
 - [***Car Rental Website***](./car-rental-Website/)
 - [***Currency Converter***](./CurrencyConverter/)
+- [***Meal Tracker***](./MealsTracker/)
 - [***React Portfolio (Coursera Project)***](./React%20Portfolio%20(Coursera%20Project)/)
 - [***Expense Tracker***](./expensetracker/)
 - [***Sodify***](./sodify/)
